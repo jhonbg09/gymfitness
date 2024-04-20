@@ -96,6 +96,10 @@ img{
     margin: 0 auto;
 }
 
+.contenido-centrado{
+    width: min(95%, 80rem);
+}
+
 /* Utilidades */
 
 .text-center{
