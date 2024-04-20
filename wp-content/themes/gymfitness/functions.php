@@ -1,4 +1,10 @@
 <?php
+//Habilitando imganes destacadas
+function gymfitness_setup(){
+    add_theme_support('post-thumbnails');
+}
+
+add_action('after_setup_theme', 'gymfitness_setup');
 
 // Agragando menu de navegacion
 function gymfitness_menus(){
@@ -18,3 +24,5 @@ function gymfitness_scripts_styles() {
 }
 
 add_action('wp_enqueue_scripts', 'gymfitness_scripts_styles');
+
+
