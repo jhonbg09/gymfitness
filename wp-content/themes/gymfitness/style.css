@@ -153,15 +153,17 @@ img{
     padding: .5rem 2rem;
 }
 
-.menu-principal .current_page_item {
-    border-bottom: 3px solid var(--primario);
-}
 
 @media(min-width: 768px){
     .menu-principal a {
         position: relative;
         z-index: 1;
     }
+
+    .menu-principal .current_page_item {
+        border-bottom: 3px solid var(--primario);
+    }
+
     /* Animacion CSS */
     .menu-principal a::before, 
     .menu-principal a::after {
