@@ -1,0 +1,27 @@
+# Ignorar archivos de configuración específicos de cada instalación de WordPress
+wp-config.php
+
+# Ignorar la carpeta de subidas de medios
+wp-content/uploads/
+
+# Ignorar archivos y carpetas generados por plugins y temas
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/blogs.dir/
+wp-content/languages/
+wp-content/themes/twenty*/
+wp-content/plugins/hello.php
+
+# Ignorar el archivo de configuración de cache de W3 Total Cache
+wp-content/w3tc-config/
+
+# Ignorar los archivos de log de PHP
+*.log
+
+# Ignorar archivos de configuración de desarrollo local
+wp-config-local.php
+
+# Ignorar cualquier archivo de credenciales o secretos
+creds.php
