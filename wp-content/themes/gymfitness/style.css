@@ -211,6 +211,14 @@ hr{
     padding: 4rem 0;
 }
 
+@media(min-width:768px){
+    .contenido-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
 .footer .menu-principal a{
     color: var(--negro);
     text-align: center;
@@ -223,6 +231,16 @@ hr{
     display: none;
 }
 
-.footer .current_page_item {
-    border: none;
+.copyrigth{
+    text-align: center;
+    font-family: var(--fuente-headings);
+    font-size: 1.8rem;
+    margin: 2rem 0 0 0;
+}
+
+@media (min-width: 768px) {
+    .copyrigth{
+        font-size: 2.4rem;
+        margin: 0;
+    }
 }

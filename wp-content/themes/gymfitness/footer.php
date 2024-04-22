@@ -10,7 +10,9 @@
 
             wp_nav_menu($arr);
             ?>
+            <p class="copyrigth">Todos los derechos reservados. <?php echo get_bloginfo('name') . ' ' . date('Y')?></p>
     </div>
+
 </footer>
 </body>
 
