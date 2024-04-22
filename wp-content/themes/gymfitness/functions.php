@@ -2,6 +2,10 @@
 //Habilitando imganes destacadas
 function gymfitness_setup(){
     add_theme_support('post-thumbnails');
+
+    //Titulo SEO
+    // con esta funcion activo el titulo SEO de mi pagina... hay que eliminar las etiquetas title de la pagina para que funcione el el titulo SEO, ya la funcion wp_head(); coloca el titulo de SEO
+    add_theme_support('title-tag');
 }
 
 add_action('after_setup_theme', 'gymfitness_setup');
