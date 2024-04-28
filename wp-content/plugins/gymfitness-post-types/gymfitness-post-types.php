@@ -8,7 +8,7 @@
     Author URI: http://twitter.com/codigoconjuan
     Text Domain: gymfitness
 */
-
+ 
 
 if(!defined('ABSPATH')) die();
 
